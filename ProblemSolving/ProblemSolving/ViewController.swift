@@ -24,8 +24,12 @@ class ViewController: UIViewController {
         //        let sum = 665
         //        SubarrayWithGivenSum().printFirstAndLastIndicesToSubarrayWithGivenSum(intArray: intArray, requiredSum: sum)
         
-        let array = [34, 8, 10, 3, 2, 80, 30, 33, 1]
-        MaximumIndex().printMaxIndex(array: array)
+//        let array = [34, 8, 10, 3, 2, 80, 30, 33, 1]
+//        MaximumIndex().printMaxIndex(array: array)
+        
+        let array = [0, 2, 1, 2, 0]
+
+        SortArrayOf0s1s2s().printSorrtedArray(array: array)
     }
     //
     //    func readCharacters() -> [Character] {
